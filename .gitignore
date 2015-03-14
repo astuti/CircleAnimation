@@ -1,6 +1,58 @@
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
-/build
+# Taken from http://stackoverflow.com/questions/8476376/typical-gitignore-file-for-an-android-app
+
+#Android
+
+# built application files
+**/*.apk
+**/*.ap_
+
+# files for the dex VM
+**/*.dex
+
+# Java class files
+**/*.class
+
+# generated files
+**/bin/
+**/gen/
+
+# Local configuration file (sdk path, etc)
+**/local.properties
+
+##Eclipse
+**/*.pydevproject
+**/*.project
+**/*.metadata
+**/bin/**
+**/tmp/**
+**/tmp/**
+**/*.tmp
+**/*.bak
+**/*.swp
+**/*~.nib
+**/local.properties
+**/.settings/
+**/.loadpath
+
+# External tool builders
+**/.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+**/*.launch
+
+# CDT-specific
+**/.cproject
+
+# PDT-specific
+**/.buildpath
+
+# Intellij android-studio specific
+**/*.iml
+**/.idea/
+**/.gradle/
+**/local.properties
+**/.DS_Store
+build/**
+/muzi/build/
+/sliding-up-panel/build/
+/appcompat/build/
